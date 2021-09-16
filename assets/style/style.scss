@@ -1,0 +1,17 @@
+@import "base/fonts";
+@import "utils/var";
+@import "base/reset";
+@import "utils/mixin";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/common";
+
+@import "components/model-house";
+
+@import "vendors/aos.css";
+@import "vendors/slick.css";
+@import "vendors/swiper.css";
+
+@import "pages/index";
+@import "pages/sub";
