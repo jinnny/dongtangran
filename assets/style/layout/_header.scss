@@ -1,24 +1,20 @@
 .header {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  height: 110px;
+  height: 145px;
   z-index: 15;
-  padding: 44px 80px 0;
+  padding: 35px 60px 0;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   transition: height .2s, background-color .2s;
-  //&.is--blue {
-  //  .header-logo {
-  //    background-image: url("../images/common/logo-blue.png");
-  //  }
-  //}
+
   &-logo {
-    width: 182px;
-    height: 51px;
+    width: 252px;
+    height: 110px;
     text-indent: -9999px;
     background-repeat: no-repeat;
-    background-image: url("../images/common/logo.png");
+    background-image: url("../images/common/dg_logo.png");
     &__link {
       display: block;
     }
@@ -34,6 +30,11 @@
       padding: 0 2vw 37px;
       position: relative;
       &:hover {
+        .header-menu__link {
+          &:after {
+            width: 100%;
+          }
+        }
         .header-menu-depth {
           display: block;
           padding-top: 36px;
@@ -42,7 +43,7 @@
           padding-bottom: 36px;
           &__link {
             padding: 5px 0 5px 29px;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 300;
             height: auto;
             opacity: 1;
@@ -89,33 +90,31 @@
     .header-menu__link {
       font-size: 17px;
       letter-spacing: -0.4px;
-      color: #333333;
+      color: $white;
       box-sizing: border-box;
       position: relative;
       font-weight: 600;
       &.disabled {
         opacity: .4;
       }
-      //&:after {
-      //  content: '';
-      //  position: absolute;
-      //  width: 0;
-      //  height: 2px;
-      //  background: $point;
-      //  left: 0;
-      //  bottom: -37px;
-      //  -webkit-transition: all 0.5s ease .1s;
-      //  -moz-transition: all 0.5s ease .1s;
-      //  -o-transition: all 0.5s ease .1s;
-      //  transition: all 0.5s ease .1s;
-      //}
+      &:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background: $point;
+        left: 0;
+        bottom: -6px;
+        -webkit-transition: all 0.5s ease .1s;
+        -moz-transition: all 0.5s ease .1s;
+        -o-transition: all 0.5s ease .1s;
+        transition: all 0.5s ease .1s;
+      }
     }
     .header-menu-depth {
       position: absolute;
-      width: 183px;
-      background: $point;
-      left: calc(50% - 96.5px);
-      top: 33px;
+      left: 0;
+      top: 13px;
       display: none;
       height: 0;
       opacity: 0;
@@ -123,7 +122,7 @@
       transition-timing-function: ease-in-out;
       transition-duration: .8s;
       box-sizing: border-box;
-      text-align: left;
+      text-align: center;
       &__link {
         display: block;
         color: $white;
@@ -136,9 +135,6 @@
         transition-timing-function: ease-in-out;
         transition-duration: 1s;
         transition-delay: .5s;
-        background-repeat: no-repeat;
-        background-position: calc(100% - 28px) 50%;
-        background-image: url("../images/common/menu-arrow.png");
         &.disabled {
           opacity: 0.4;
         }
@@ -150,34 +146,11 @@
   }
   &-tel {
     margin-top: 27px;
-    width: 212px;
-    height: 23px;
+    width: 204px;
+    height: 30px;
     background-repeat: no-repeat;
-    background-image: url("../images/common/header-tel.png");
+    background-image: url("../images/common/dg_header_tel.png");
   }
-  //&.is--show-depth {
-  //  .header-logo {
-  //    background-image: url("../images/common/logo-blue.png");
-  //  }
-  //  .header-menu__link {
-  //    color: $point;
-  //  }
-  //  .header-menu__item {
-  //    &:hover {
-  //      .header-menu__link {
-  //        &:after {
-  //          width: 100%;
-  //        }
-  //      }
-  //    }
-  //  }
-  //  .header-tel {
-  //    background-image: url("../images/common/header-tel-blue.png");
-  //  }
-  //  .header-menu-depth {
-  //    display: block;
-  //  }
-  //}
   &.is--show-depth {
     background: $white;
     //height: 298px;
@@ -204,9 +177,6 @@
           }
         }
       }
-    }
-    .header-tel {
-      background-image: url("../images/common/header-tel-blue.png");
     }
   }
 }
