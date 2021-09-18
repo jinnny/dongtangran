@@ -1,7 +1,7 @@
 .sub {
-  background: #232323;
   &-layout {
     padding: 0 59px;
+    background: #232323;
   }
   &-top {
     &-area {
@@ -15,6 +15,8 @@
       align-items: flex-end;
       position: relative;
       justify-content: space-between;
+      width: 1200px;
+      margin: 0 auto;
       .sub-top__title {
         color: $white;
         font-size: 50px;

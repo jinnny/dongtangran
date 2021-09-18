@@ -171,7 +171,7 @@ table {
   color: #ffffff;
   box-sizing: border-box;
   position: relative;
-  font-weight: 600;
+  font-weight: normal;
 }
 .header-menu .header-menu__link.disabled {
   opacity: .4;
@@ -265,6 +265,7 @@ table {
   line-height: 0.94;
   letter-spacing: -0.32px;
   margin-top: 7px;
+  font-weight: 300;
 }
 .footer-text__item:first-child {
   margin-top: 0;
@@ -720,11 +721,9 @@ html {
   display: block;
 }
 
-.sub {
-  background: #232323;
-}
 .sub-layout {
   padding: 0 59px;
+  background: #232323;
 }
 .sub-top-area {
   position: relative;
@@ -737,6 +736,8 @@ html {
   align-items: flex-end;
   position: relative;
   justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
 }
 .sub-top-content .sub-top__title {
   color: #ffffff;
