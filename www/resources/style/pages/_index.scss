@@ -31,6 +31,9 @@
     .visual-controller__item {
       position:relative;
       cursor:pointer;
+      & + .visual-controller__item {
+        margin-top: 10px;
+      }
       .visual-controller-img {
         width:92px;
         height: 134px;

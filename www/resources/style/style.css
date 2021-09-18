@@ -513,6 +513,9 @@ html {
   position: relative;
   cursor: pointer;
 }
+.main-section-visual .main-visual-controller .visual-controller__item + .visual-controller__item {
+  margin-top: 10px;
+}
 .main-section-visual .main-visual-controller .visual-controller__item .visual-controller-img {
   width: 92px;
   height: 134px;
