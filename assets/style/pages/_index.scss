@@ -38,13 +38,13 @@
         background-repeat: no-repeat;
         background-position: 0 0;
         &1 {
-          background-image: url('../images/main/dg_thumbnail1_img.png');
+          background-image: url('../img/main/dg_thumbnail1_img.png');
         }
         &2 {
-          background-image: url('../images/main/dg_thumbnail2_img.png');
+          background-image: url('../img/main/dg_thumbnail2_img.png');
         }
         &3 {
-          background-image: url('../images/main/dg_thumbnail3_img.png');
+          background-image: url('../img/main/dg_thumbnail3_img.png');
         }
       }
       &.on,
@@ -53,13 +53,13 @@
           opacity: 1;
           transition: 0.3s;
           &1 {
-            background-image: url('../images/main/dg_thumbnail1_img_active.png');
+            background-image: url('../img/main/dg_thumbnail1_img_active.png');
           }
           &2 {
-            background-image: url('../images/main/dg_thumbnail2_img_active.png');
+            background-image: url('../img/main/dg_thumbnail2_img_active.png');
           }
           &3 {
-            background-image: url('../images/main/dg_thumbnail3_img_active.png');
+            background-image: url('../img/main/dg_thumbnail3_img_active.png');
           }
         }
       }
@@ -94,7 +94,7 @@
     align-items: flex-end;
     justify-content: center;
     &1 {
-      background: url('../images/main/dg_slide1_bg.png') no-repeat center center;
+      background: url('../img/main/dg_slide1_bg.png') no-repeat center center;
       background-size: cover;
       background-attachment: fixed;
       .main-text-img {
@@ -107,7 +107,7 @@
       }
     }
     &2 {
-      background: url('../images/main/dg_slide2_bg.png') no-repeat center center;
+      background: url('../img/main/dg_slide2_bg.png') no-repeat center center;
       background-size: cover;
       background-attachment: fixed;
       .main-text-img {
@@ -120,7 +120,7 @@
       }
     }
     &3 {
-      background: url('../images/main/dg_slide3_bg.png') no-repeat center center;
+      background: url('../img/main/dg_slide3_bg.png') no-repeat center center;
       background-size: cover;
       background-attachment: fixed;
       .main-text-img {
@@ -232,13 +232,13 @@
   }
 
   .slick-prev {
-    background: url('../images/main/dg_premium_prev.png') 50% 50% no-repeat;
+    background: url('../img/main/dg_premium_prev.png') 50% 50% no-repeat;
   }
 
   .slick-next {
     left: auto;
     right: 0;
-    background: url('../images/main/dg_premium_next.png') 50% 50% no-repeat;
+    background: url('../img/main/dg_premium_next.png') 50% 50% no-repeat;
   }
 }
 

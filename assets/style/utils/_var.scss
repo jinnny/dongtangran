@@ -14,10 +14,9 @@ $darkBlue: #003056;
 $blue: #093354;
 $navy-blue: #00183f;
 
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
 //font
 $korea: 'NotoSansKR', sans-serif, 'Malgun Gothic', '맑은 고딕';
 
 $default-font: $korea, AppleSDGothicNeo, -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕', "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-$myeongjo: 'NanumMyeongjo', AppleSDGothicNeo, -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕', "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-$mont: 'Montserrat', $korea;
 $trajan: 'TrajanPro', $korea
