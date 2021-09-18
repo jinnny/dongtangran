@@ -121,6 +121,7 @@ table {
 }
 .header-logo__link {
   display: block;
+  height: 110px;
 }
 .header-menu {
   padding-top: 27px;
