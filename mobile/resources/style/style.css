@@ -234,7 +234,7 @@ table {
   height: 100%;
 }
 .header-menu-menu .header-menu-header {
-  padding: 1.3rem 0 3rem 14vw;
+  padding: 1.3vh 0 3vh 14vw;
   position: relative;
 }
 .header-menu-menu .header-menu-header .header-menu__logo {
@@ -607,6 +607,11 @@ html {
   justify-content: center;
   padding-top: 36.8vw;
 }
+@media all and (max-height: 780px) {
+  .main-section-visual .visual-content {
+    padding-top: 22.8vw;
+  }
+}
 .main-section-visual .visual-content1 {
   background: url("../img/main/dg_slide1_bg.png") no-repeat center center;
   background-size: cover;
@@ -655,6 +660,11 @@ html {
   top: 111vw;
   bottom: auto;
 }
+@media all and (max-height: 780px) {
+  .slick-dots {
+    top: 96vw;
+  }
+}
 .slick-dots li {
   width: 10px;
   height: 10px;
@@ -690,13 +700,18 @@ html {
   width: 49%;
   margin-bottom: 9.1vw;
 }
+@media all and (max-height: 780px) {
+  .main-premium-title {
+    margin-bottom: 10px;
+  }
+}
 .main-premium-slide-area {
   width: 100%;
   position: relative;
 }
 .main-premium-slide-area .slick-control-area {
   position: absolute;
-  left: calc(14.72vw + 14.72vw + 20px);
+  left: calc(14.72vw + 14.72vw + 16px);
   top: 6px;
   display: flex;
   align-items: center;
@@ -756,7 +771,7 @@ html {
   letter-spacing: -1.53px;
   margin-left: 20px;
   padding-bottom: 7px;
-  min-width: 146px;
+  min-width: 157px;
 }
 .main-premium .premium-slide__text small {
   font-size: 13px;

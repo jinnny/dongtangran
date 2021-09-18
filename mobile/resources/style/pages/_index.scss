@@ -37,6 +37,9 @@
     align-items: flex-start;
     justify-content: center;
     padding-top: 36.8vw;
+    @media all and (max-height: 780px) {
+      padding-top: 22.8vw;
+    }
     &1 {
       background: url('../img/main/dg_slide1_bg.png') no-repeat center center;
       background-size: cover;
@@ -86,6 +89,9 @@
 .slick-dots {
   top: 111vw;
   bottom: auto;
+  @media all and (max-height: 780px) {
+    top: 96vw;
+  }
   li {
     width: 10px;
     height: 10px;
@@ -121,6 +127,9 @@
   &-title {
     width: 49%;
     margin-bottom: 9.1vw;
+    @media all and (max-height: 780px) {
+      margin-bottom: 10px;
+    }
   }
   &-slide {
     &-area {
@@ -128,7 +137,7 @@
       position: relative;
       .slick-control-area {
         position: absolute;
-        left: calc(14.72vw + 14.72vw + 20px);
+        left: calc(14.72vw + 14.72vw + 16px);
         top: 6px;
         display: flex;
         align-items: center;
@@ -191,7 +200,7 @@
       letter-spacing: -1.53px;
       margin-left: 20px;
       padding-bottom: 7px;
-      min-width: 146px;
+      min-width: 157px;
       small {
         font-size: 13px;
         font-weight: 300;
