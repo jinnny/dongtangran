@@ -285,8 +285,8 @@ table {
 
 .footer {
   width: 100%;
-  background: #333;
-  color: rgba(254, 254, 254, 0.5);
+  background: #ffffff;
+  color: #777777;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,10 +295,11 @@ table {
 }
 .footer-logo {
   width: 60%;
-  max-width: 437px;
-}
-.footer-text {
-  margin-top: 5.55vw;
+  height: 31px;
+  max-width: 438px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../img/common/dg_footer_logo.png");
 }
 .footer-text__item {
   font-size: 11px;
@@ -306,7 +307,7 @@ table {
   line-height: 1.2;
   letter-spacing: -0.32px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -315,32 +316,35 @@ table {
   margin-top: 0;
 }
 .footer-text__item-copyright {
-  color: #fff;
-  margin-top: 21px;
+  color: #999;
+  margin-top: 16px;
   text-transform: uppercase;
   font-size: 10px;
   text-align: center;
   line-height: 1.25;
+  font-weight: normal;
 }
 .footer-separator {
   font-size: 9px;
   color: #ffffff;
   margin: -4px 5px 0;
 }
-.footer.is--white.footer {
-  background: #fafafa;
-  color: #383838;
+
+.sub .footer {
+  background: #333333;
+  color: rgba(254, 254, 254, 0.5);
 }
-.footer.is--white.footer .footer-text__item:first-child {
-  margin-top: 0;
+.sub .footer .footer-logo {
+  background-image: url("../img/common/dg_footer_logo_white.png");
 }
-.footer.is--white.footer .footer-text__item-copyright {
-  color: #273d6c;
-  margin-top: 10px;
+.sub .footer-text__item-copyright {
+  color: rgba(254, 254, 254, 0.86);
   text-transform: uppercase;
 }
-.footer.is--white.footer .footer-separator {
-  color: #383838;
+.sub .footer-separator {
+  font-size: 12px;
+  color: #808080;
+  margin: 0 15px;
 }
 
 html {
