@@ -7,8 +7,8 @@
   <meta name="theme-color" content="#000000">
   <meta name="msapplication-navbutton-color" content="#000000">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="shortcut icon" href="../share/img/dg_favicon.ico" type="image/x-icon">
-  <meta id="meta_og_image" property="og:image" content="../share/img/og_image.jpg">
+  <link rel="shortcut icon" href="/share/img/dg_favicon.ico" type="image/x-icon">
+  <meta id="meta_og_image" property="og:image" content="/share/img/og_image.jpg">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="627">
   <meta name="keywords" content="동탄역 그란비아스타">
@@ -26,61 +26,9 @@
   <script src="resources/js/main.js"></script>
 </head>
 <body>
-<header class="header js-header">
-  <h1 class="header-logo">
-    <a href="index.html" class="header-logo__link">동탄역 그란비아스타</a>
-  </h1>
-  <nav class="header-menu">
-    <ul class="header-menu-list">
-      <li class="header-menu__item">
-        <a href="pages/overview.html" class="header-menu__link">사업안내</a>
-        <ul class="header-menu-depth">
-          <li class="header-menu-depth__item">
-            <a href="pages/overview.html" class="header-menu-depth__link">사업개요</a>
-          </li>
-          <li class="header-menu-depth__item">
-            <a href="pages/location" class="header-menu-depth__link">오시는길</a>
-          </li>
-        </ul>
-      </li>
-      <li class="header-menu__item">
-        <a href="pages/premium" class="header-menu__link">프리미엄</a>
-      </li>
-      <li class="header-menu__item">
-        <a href="pages/environment" class="header-menu__link">입지환경</a>
-      </li>
-      <li class="header-menu__item">
-        <a href="pages" class="header-menu__link">상품안내</a>
-      </li>
-      <li class="header-menu__item">
-        <a href="pages" class="header-menu__link">홍보센터</a>
-      </li>
-      <li class="header-menu__item">
-        <a href="regist/regist" class="header-menu__link">관심고객등록</a>
-      </li>
-    </ul>
-  </nav>
-  <a href="tel:1566-6282" class="header-tel"></a>
-</header>
-<!--<? include "inc/header.html"; ?>-->
-
+<? include "inc/header.html"; ?>
 <!--   퀵메뉴-->
-<nav class="quick-menu">
-  <div class="quick-menu__item">
-    <span class="blind">Quick Menu</span>
-    <div class="quick-menu-content">
-      <a href="pages"  class="quick-menu__link quick-menu__link1">
-        <strong class="quick-menu__link-text">소개영상</strong>
-      </a>
-      <a href="pages/chungyak" class="quick-menu__link quick-menu__link2">
-        <strong class="quick-menu__link-text">청약안내</strong>
-      </a>
-      <a href="pages/location" class="quick-menu__link quick-menu__link3">
-        <strong class="quick-menu__link-text">오시는길</strong>
-      </a>
-    </div>
-  </div>
-</nav>
+<? include "inc/quick-menu.html"; ?>
 <!--   퀵메뉴-->
 <main class="main">
   <div class="main-section-area">
@@ -184,18 +132,7 @@
 
     </div>
   </div>
-  <footer class="footer">
-    <div class="footer-text">
-      <p class="footer-text__item">※본 홈페이지의  CG, 이미지 및 내용은 소비자의 이해를 돕기 위한 것으로 실제와 차이가 있을 수 있습니다.</p>
-      <p class="footer-text__item">※상기 지역도 및 내용상의 개발계획은 관계기관의 사정에 따라 변동 또는 취소 될 수 있는 사항으로 당사와 무관합니다.</p>
-      <p class="footer-text__item">※본 홈페이지의 상의 설계사항은 인·허가 과정에서 변경될 수 있습니다</p>
-    </div>
-    <div class="footer-logo-area">
-      <div class="footer-logo"></div>
-      <p class="footer-text__item footer-text__item-copyright">COPYRIGHT granvia star. ALL RIGHTS RESERVED.</p>
-    </div>
-  </footer>
-  <!--<? include "inc/footer.html"; ?>-->
+  <? include "inc/footer.html"; ?>
 </main>
 </body>
 </html>
