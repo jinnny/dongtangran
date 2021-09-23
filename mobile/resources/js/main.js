@@ -18,7 +18,6 @@ $(function() {
       autoplay: true,
       arrows:false,
       autoplaySpeed: 2000,
-      speed: 2000,
       fade:true,
       dots: true,
       focusOnSelect: false
@@ -51,8 +50,8 @@ $(function() {
       autoplay: true,
       arrows: true,
       autoplaySpeed: 2500,
-      speed: 2500,
       dots: false,
+      fade:true,
       focusOnSelect: false,
       draggable: false
     });
