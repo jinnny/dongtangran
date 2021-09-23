@@ -17,7 +17,7 @@ $(function() {
       infinite: true,
       autoplay: true,
       arrows:false,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       fade:true,
       dots: true,
       focusOnSelect: false
